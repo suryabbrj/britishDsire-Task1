@@ -63,7 +63,7 @@
 					</a>
                         <div class="d-flex justify-content-between w-100 d-lg-none">
                             <a class="navbar-brand" href="./index.html">
-							<img src="./assets/images/logo/freshcart-logo.svg" height="20" width="20"  alt="eCommerce HTML Template" />
+							<img src="./assets/images/logo/freshcart-logo.svg" height="20" width="20"  alt="eComm site" />
 						</a>
                         </div>
                     </div>
@@ -72,13 +72,13 @@
                             <div class="input-group">
                                 <input class="form-control rounded-pill" type="search" placeholder="Start shopping!!!" />
                                 <span class="input-group-append">
-								<button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-pill" type="button">
+								<button class="btn  ms-n10 rounded-0 rounded-pill " type="button">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="16"
 										height="16"
 										viewBox="0 0 24 24"
-										fill="none"
+										fill="#43766c"
 										stroke="#43766c"
 										stroke-width="4"
 										stroke-linecap="round"
@@ -106,7 +106,7 @@
 							</a>
                             </div>
                             <div class="list-inline-item me-5">
-                                <a href="#!" class="text-muted" data-bs-toggle="modal" data-bs-target="#userModal">
+                                <a href="#!" class="text-muted" data-bs-toggle="modal" data-bs-target="#offcanvasExample">
 								<img src="assets/images/icons/user-profile.svg" width="20" alt="user-profile">
 							</a>
                             </div>
@@ -120,13 +120,11 @@
 							</a>
                             </div>
                             <div class="list-inline-item d-inline-block d-lg-none">
-                                <!-- Button -->
-                                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-label="Toggle navigation">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-text-indent-left text-primary" viewBox="0 0 16 16">
-                                        <path d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm.646 2.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L4.293 8 2.646 6.354a.5.5 0 0 1 0-.708zM7 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
-                                    </svg>
-                                </button>
-                            </div>
+							<!-- Button -->
+							<button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-label="Toggle navigation">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" id="search"><path fill="#200E32" d="M15.6207067,15.6542822 C16.0072308,15.270377 16.6268293,15.270377 17.0133534,15.6542822 L17.0133534,15.6542822 L19.5680176,17.7164156 L19.6123694,17.7164156 C20.1292102,18.2388171 20.1292102,19.0857973 19.6123694,19.6081989 C19.0955285,20.1306004 18.2575639,20.1306004 17.7407231,19.6081989 L17.7407231,19.6081989 L15.6207067,17.1784678 L15.5402577,17.0876967 C15.390397,16.8980019 15.3076306,16.6615115 15.3076306,16.416375 C15.3076306,16.1303824 15.4202849,15.8561581 15.6207067,15.6542822 Z M8.57763961,-7.10542736e-15 C10.8525711,-7.10542736e-15 13.0343273,0.913436016 14.6429467,2.53936255 C16.2515662,4.16528909 17.1552792,6.37051871 17.1552792,8.66992606 C17.1552792,13.458194 13.3149392,17.3398521 8.57763961,17.3398521 C3.84034006,17.3398521 2.13162821e-14,13.458194 2.13162821e-14,8.66992606 C2.13162821e-14,3.88165812 3.84034006,-7.10542736e-15 8.57763961,-7.10542736e-15 Z" transform="translate(2 2)"></path></svg>
+							</button>
+						</div>
                             
                         </div>
                     </div>
@@ -136,50 +134,39 @@
 
         
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content p-4">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title fs-3 fw-bold" id="userModalLabel">Sign Up</h5>
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="needs-validation" novalidate>
-                        <div class="mb-3">
-                            <label for="fullName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="fullName" placeholder="Enter Your Name" required />
-                            <div class="invalid-feedback">Please enter name.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter Email address" required />
-                            <div class="invalid-feedback">Please enter email.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter Password" required />
-                            <div class="invalid-feedback">Please enter password.</div>
-                            <small class="form-text">
-							By Signup, you agree to our
-							<a href="#!">Terms of Service</a>
-							&
-							<a href="#!">Privacy Policy</a>
-						</small>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary" type="submit">Sign Up</button>
-                    </form>
-                </div>
-                <div class="modal-footer border-0 justify-content-center">
-                    Already have an account?
-                    <a href="#">Sign in</a>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 pb-lg-4" aria-label="Offcanvas navbar large">
+		<div class="container">
+			<div class="offcanvas offcanvas-start show" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel" aria-modal="true" role="dialog">
+				<div class="offcanvas-header pb-1">
+					<a href="./index.html"><img src="../assets/images/logo/freshcart-logo.svg" width="20" alt="eCommerce HTML Template"></a>
+					<button type="button" style="stroke: #43766c
+                    ;" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<div class="d-block d-lg-none mb-4">
+						<form action="#">
+							<div class="input-group">
+								<input class="form-control rounded-pill " type="search" placeholder="Start your search!!" style="text-align: center;">
+								<span class="input-group-append">
+									<button class="btn  ms-n10 rounded-pill " type="button">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+											<circle cx="11" cy="11" r="8"></circle>
+											<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+										</svg>
+									</button>
+								</span>
+							</div>
+						</form>
+						
+					</div>
+					
+				</div>
+                <div class="offcanvas-backdrop fade"></div>
             </div>
-        </div>
-    </div>
+	</nav>
+    <!-- Modal -->
 
+    
     <!-- Shop Cart -->  
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -204,7 +191,9 @@
                 </ul>
                 <!-- btn -->
                 <div class="d-flex justify-content-between mt-4" style="padding-left: 35%;">
-                    <a href="#!"  class="btn btn-primary" style="background-color: #43766c;" >Continue Shopping</a>
+                    <a href="#!" type="button" class="btn btn-primary "  style="background-color: #43766c;" >
+                        Continue Shopping!
+                    </a>
                 </div>
             </div>
         </div>
